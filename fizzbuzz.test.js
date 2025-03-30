@@ -1,11 +1,14 @@
-const fizzBuzz = require("./FizzBuzz");
+const fizzBuzz = require("./fizzbuzz")
 
 test("",()=>{
-    expect(fizzBuzz(15)).toBe('FizzBuzz');
+    expect(fizzBuzz(45)).toBe('FizzBuzz');
+
 });
 test("",()=>{
-    expect(fizzBuzz(9)).toBe("Fizz");
+    expect(fizzBuzz(3)).toBe('Fizz');
+    
 });
 test("",()=>{
-    expect(fizzBuzz(10)).toBe("Buzz");
+    expect(fizzBuzz(5)).toBe('Buzz');
+    
 });
