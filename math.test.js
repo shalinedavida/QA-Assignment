@@ -7,7 +7,7 @@ test('should return 5 when 2 and 3 added',()=>{
     expect(add(2,3)).toBe(5);
 });
 
-   
+
 
 test('subtract 3 and 2 to equal 1',()=>{
     expect(subtract(3,2)).toBe(1);
